@@ -1,0 +1,10 @@
+- name: Installing packages
+  hosts: Kholodov
+  become: yes
+  tasks:
+  - name: Install cmatrix
+    apt: pkg=cmatrix
+  - name: Install Cowsay
+    apt: pkg=cowsay
+  - name: Install sl
+    apt: pkg=sl

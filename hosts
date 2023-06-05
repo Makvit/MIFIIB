@@ -1,0 +1,2 @@
+[Kholodov]
+10.1.2.194 ansible_ssh_user=mks-s ansible_sudo_pass=123
